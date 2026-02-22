@@ -1,4 +1,5 @@
 package app;
 
-public class AdviceService {
+public interface AdviceService {
+    void advise(Day day);
 }
